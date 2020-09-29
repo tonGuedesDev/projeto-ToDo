@@ -1,0 +1,38 @@
+.main {
+    background: rgb(61, 58, 63);
+}
+
+.main form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input__main {
+    margin-bottom: 10px;
+    width: 250px;
+    padding: 10px;
+    font-size: 15rem;
+    text-align: center;
+}
+
+.button__main {
+    width: 270px;
+    padding: 10px;
+    border: lightblue;
+    background-color: rgb(203, 62, 238);
+    font-size: 15rem;
+    color: black;
+    transition: 300ms;
+}
+
+.button__main:hover {
+    background-color: rgb(173, 48, 204);
+    transform: scale(1.03);
+    transition: 300ms;
+}
+
+.button__main:active {
+    transform: scale(0.99);
+}

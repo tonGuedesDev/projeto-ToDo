@@ -1,0 +1,31 @@
+#jsElements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25rem;
+    background: white;
+    border: 0 1px solid rgb(72, 69, 75);
+    color: black;
+    transition: 1s;
+}
+
+#jsElements p {
+    padding: 10px;
+    max-width: 470px;
+    min-width: 470px;
+    text-align: center;
+}
+
+#jsElements button {
+    font-size: 20rem;
+    cursor: pointer;
+    background: rgb(203, 62, 238);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#checkbox__jsElements:checked~p {
+    text-decoration: line-through;
+    color: gray;
+}

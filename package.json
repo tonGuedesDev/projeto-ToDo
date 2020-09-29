@@ -1,0 +1,11 @@
+{
+    "name": "projeto-ToDo",
+    "version": "1.0.0",
+    "description": "Site para gerenciar tarefas diarias.",
+    "main": "src/index.js",
+    "author": "Wellington Pereira",
+    "license": "MIT",
+    "dependencies": {
+        "nodemon": "^2.0.4"
+    }
+}

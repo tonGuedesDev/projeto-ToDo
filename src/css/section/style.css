@@ -1,0 +1,13 @@
+.section {
+    font-size: 30rem;
+    margin: 30px auto;
+    width: 80%;
+    background-color: rgb(72, 69, 75);
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
